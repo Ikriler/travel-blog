@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    min-height: 100vh;
+}
+
+button{
+    border: none;
+}
+
+.header{
+    height: 99vh;
+    background: url(img/bg.png) center center no-repeat;
+}
+
+.menu{
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    margin-right: 102px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+}
+
+.menu a:last-child{
+    margin-right: 0;
+}
+
+.header-text{
+    text-align: center;
+    padding-top: 380px;
+}
+
+.header-text h1{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.header-text p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+}
+
+.header-text button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.header-text button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-text span{
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+.about-text h2{
+    margin-top: 32px;
+    margin-bottom: 54px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.about-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.about-text button{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+}
+
+.about-text button{
+    cursor: pointer;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.about-text button:hover{
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+}
+
+.photos{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.photos-text h2{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.photos-text p{
+    margin-top: 36px;
+    margin-bottom: 97px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.photo-wrap img{
+    margin: 10px;
+}
+
+.company-text{
+    text-align: center;
+}
+
+.company{
+    margin-top: 250px;
+}
+
+.company-text h2{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.company-text p{
+    margin-top: 36px;
+    margin-bottom: 65px;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.company-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-block-1{
+    margin-right: 34px;
+}
+
+.company-block h3{
+    margin-top: 66px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.company-block p{
+    margin-top: 55px;
+    margin-bottom: 80px;
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+
+.company-block button{
+    cursor: pointer;
+    padding: 10px 33px;
+    background-color: lightgrey;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    transition: ease .25s;
+}
+
+.company-block button:hover{
+    background-color: #ccc;
+}
+
+.next-tour{
+    margin-top: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.next-text span{
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+.next-text h2{
+    margin-top: 32px;
+    margin-bottom: 54px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.next-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.send-text h2{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.send-text p{
+    margin-top: 24px;
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px
+}
+
+.send input{
+    background: transparent;
+    border: 2px solid #7a7a7a;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+    margin-right: 39px;
+}
+
+.send button{
+    cursor: pointer;
+    padding: 28px 80px;
+    background-color: #3a4047;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    transition: ease-in-out .25s;
+}
+
+.send button:hover{
+    background-color: grey;
+}
+
+.send{
+    padding: 150px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.send-text{
+    margin-right: 111px;
+}
+
+.footer{
+    padding: 110px 0;
+    text-align: center;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    margin-right: 55px;
+}
+
+.footer-menu{
+    margin-bottom: 66px;
+}
+
+.footer-menu a:last-child{
+    margin-right: 0;
+}
+
+.footer-text p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+    margin-bottom: 19px;
+}
+
+.footer-text:last-child{
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+}
